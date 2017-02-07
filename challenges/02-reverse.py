@@ -6,3 +6,12 @@
 # several ways to reverse a string, and it's a good read!
 #
 # http://www.techbeamers.com/essential-python-tips-tricks-programmers/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more#tip1
+
+def reverse():
+    str = input("Enter a string: ")
+    newstr = ''
+    for i in range(len(str)-1,-1,-1):
+        newstr += str[i]
+    print(newstr);
+
+reverse()
